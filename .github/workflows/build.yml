@@ -22,7 +22,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: npm
 
       # ── 3. Set up Java 17 ─────────────────────────────────────────
       - name: Set up JDK 17
